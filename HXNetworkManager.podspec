@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'HXNetworkManager/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   s.swift_version = '5.0'
   
