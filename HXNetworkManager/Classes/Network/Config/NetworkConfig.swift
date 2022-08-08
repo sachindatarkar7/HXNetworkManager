@@ -26,22 +26,22 @@ public enum Encoding: String {
     case JSON
 }
 
-enum HeaderContentType: String {
+public enum HeaderContentType: String {
     case json = "application/json"
 }
 
-enum HTTPHeaderKeys: String {
+public enum HTTPHeaderKeys: String {
     case contentType = "Content-Type"
     case cookie = "Cookie"
 }
 
 
 public struct RequestParams {
-    let urlParameters: [String: String]?
-    let bodyParameters: [String: Any]?
-    let contentType: HeaderContentType
+    public let urlParameters: [String: String]?
+    public let bodyParameters: [String: Any]?
+    public let contentType: HeaderContentType
     
-    init(urlParameters: [String: String]?, bodyParameters: [String: Any]?, contentType: HeaderContentType = .json) {
+   public init(urlParameters: [String: String]?, bodyParameters: [String: Any]?, contentType: HeaderContentType = .json) {
         self.urlParameters = urlParameters
         self.bodyParameters = bodyParameters
         self.contentType = contentType

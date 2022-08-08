@@ -8,12 +8,13 @@
 
 import Foundation
 
-typealias NetworkSuccessHandler = (Data, URLResponse?) -> Void
-typealias NetworkFailureHandler = (Data?, URLResponse?, NetworkError) -> Void
+public typealias NetworkSuccessHandler = (Data, URLResponse?) -> Void
+public typealias NetworkFailureHandler = (Data?, URLResponse?, NetworkError) -> Void
 
-protocol APIClientProtocol {
+public protocol APIClientProtocol {
     func fetch<T: Codable>(request: APIData,
                              basePath: String,
+                           responseType:T.Type,
                              keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy,
                              completionHandler: @escaping ((Result<T, NetworkError>) -> Void))
     

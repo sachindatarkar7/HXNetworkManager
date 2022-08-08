@@ -10,11 +10,11 @@ import Foundation
 public class APIClient: APIClientProtocol {
     private let authManager: NetworkManagerProtocol
     
-    init(authorizationManager: NetworkManagerProtocol = NetworkManager.shared) {
+   public init(authorizationManager: NetworkManagerProtocol = NetworkManager.shared) {
         self.authManager = authorizationManager
     }
     
-    func fetch<T: Codable>(request: APIData, basePath: String, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy, completionHandler: @escaping ((Result<T, NetworkError>) -> Void)) {
+    public func fetch<T: Codable>(request: APIData, basePath: String, responseType:T.Type, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy, completionHandler: @escaping ((Result<T, NetworkError>) -> Void)) {
         self.authManager.startRequest(request: request, basePath: basePath) { (data, response, error) in
             
             if let _ = error{
@@ -47,7 +47,7 @@ public class APIClient: APIClientProtocol {
         }
     }
     
-    func fetch(request: APIData, basePath: String, success: @escaping NetworkSuccessHandler, failure: @escaping NetworkFailureHandler) {
+    public func fetch(request: APIData, basePath: String, success: @escaping NetworkSuccessHandler, failure: @escaping NetworkFailureHandler) {
         self.authManager.startRequest(request: request, basePath: basePath) { (data, response, error) in
             if let _ = error{
                 let errorType = NetworkError.other(message: error?.localizedDescription)

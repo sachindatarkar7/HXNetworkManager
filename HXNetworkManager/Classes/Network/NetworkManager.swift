@@ -9,14 +9,14 @@
 import Foundation
 
 public class NetworkManager: NetworkManagerProtocol {
-    static let shared = NetworkManager()
+    public static let shared = NetworkManager()
     private var task: URLSessionTask?
     private let urlSession = URLSession.shared
     
     private init() {
     }
     
-    func startRequest(request: APIData, basePath: String, completion: @escaping (_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Void) {
+    public func startRequest(request: APIData, basePath: String, completion: @escaping (_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Void) {
         do {
             let urlRequest = try self.createURLRequest(apiData: request, basePath: basePath)
             
