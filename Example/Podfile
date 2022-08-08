@@ -1,9 +1,9 @@
 use_frameworks!
 
-platform :ios, '10.0'
-
+platform :ios, '11.0'
+source = 'https://github.com/sachindatarkar7/HXNetworkManager.git'
 target 'HXNetworkManager_Example' do
-  pod 'HXNetworkManager', :path => '../'
+  pod 'HXNetworkManager', :git => 'https://github.com/sachindatarkar7/HXNetworkManager.git'
 
   target 'HXNetworkManager_Tests' do
     inherit! :search_paths
