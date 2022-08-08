@@ -1,0 +1,16 @@
+PODS:
+  - HXNetworkManager (0.1.0)
+
+DEPENDENCIES:
+  - HXNetworkManager (from `../`)
+
+EXTERNAL SOURCES:
+  HXNetworkManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HXNetworkManager: 76fb110b3cc8c7971d9f454a58644b80304e76f5
+
+PODFILE CHECKSUM: 277b72a010e57a9b1950a986cb965832e1a920dd
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09176A767B713F3ADDBF6137F6611BFA /* Pods-HXNetworkManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AB0ED40C7EB7FB51C6360EFC527849 /* Pods-HXNetworkManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18096CB3DA3E39AC000B3961D4D07B4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2790CE9AFB0A8B0F4E4697401A7CC1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5DC42A5DDDA43364E0C515E64042EAC5 /* Pods-HXNetworkManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912CC759F43F5448EF8B59D22C712B0 /* Pods-HXNetworkManager_Example-dummy.m */; };
+		A1F47AB51B9DBD902FA3A8F65CCBAC96 /* Pods-HXNetworkManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C5674A452F8ACA4E33C053970ADA7B /* Pods-HXNetworkManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C33F8ABE28A11FA9008C2A7B /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8AB728A11FA9008C2A7B /* APIClientProtocol.swift */; };
+		C33F8ABF28A11FA9008C2A7B /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8AB828A11FA9008C2A7B /* NetworkManagerProtocol.swift */; };
+		C33F8AC028A11FA9008C2A7B /* APIDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8AB928A11FA9008C2A7B /* APIDataProtocol.swift */; };
+		C33F8AC128A11FA9008C2A7B /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8ABA28A11FA9008C2A7B /* NetworkConfig.swift */; };
+		C33F8AC228A11FA9008C2A7B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8ABB28A11FA9008C2A7B /* APIClient.swift */; };
+		C33F8AC328A11FA9008C2A7B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8ABC28A11FA9008C2A7B /* NetworkManager.swift */; };
+		C33F8AC428A11FA9008C2A7B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8ABD28A11FA9008C2A7B /* NetworkError.swift */; };
+		D5B9E18254AEE3FD90A588256F1778E0 /* HXNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 003018B8D3BC9CF64C2714B4F7F82100 /* HXNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F26C2C2A3A7FF796C0E389C7F8A4C5FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F33FF0E84452112B4D9BDDD9EB7614E7 /* Pods-HXNetworkManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 976FA9F7A48A1E491538B4F01412BD9C /* Pods-HXNetworkManager_Tests-dummy.m */; };
+		F7593C2330DC70C43351F34FD12816DD /* HXNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC338477E86015982E226B007F8CBFE2 /* HXNetworkManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		120F201A12FBA4022E6554FBA8607E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03EDE35C95E2B5BCAA2C2F2E8848959;
+			remoteInfo = HXNetworkManager;
+		};
+		D7662A3D929F706D4C3172C17BA97D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53E4E14DB317D8313E5D6288687A2A6;
+			remoteInfo = "Pods-HXNetworkManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003018B8D3BC9CF64C2714B4F7F82100 /* HXNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXNetworkManager-umbrella.h"; sourceTree = "<group>"; };
+		171E4D5DDB721217BD20423FB64F1E65 /* Pods-HXNetworkManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HXNetworkManager_Example"; path = Pods_HXNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184594DDCBFA490F21A0CDB6255922D1 /* Pods-HXNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		21A1C2C9634FE5EAF90ADF6ADB282847 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2BFA41293E3E5D535B242FB11B62E938 /* Pods-HXNetworkManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXNetworkManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		2DF9680ABCCADEDABEDFCFE0B2D68146 /* Pods-HXNetworkManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXNetworkManager_Example-Info.plist"; sourceTree = "<group>"; };
+		2E879681469870675E74F87A00E41F74 /* HXNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HXNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		417E928AABC440048D0F8C667A040A06 /* Pods-HXNetworkManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXNetworkManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		501025DCAC0BF9675EBCE58D9306AC60 /* HXNetworkManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HXNetworkManager; path = HXNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		579BC2D18BF8BDD08C0132AEF22CB5E5 /* HXNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXNetworkManager.debug.xcconfig; sourceTree = "<group>"; };
+		597CB7B3899886BABF688CA7105F10DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5E75A014F450EF19BF98076F3676A9F7 /* Pods-HXNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
+		65F898D8D3C28D3A35546EF1C54EA0DD /* Pods-HXNetworkManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HXNetworkManager_Tests"; path = Pods_HXNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85D1E980846C8064A3675F63EE9A6A04 /* Pods-HXNetworkManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXNetworkManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86C5674A452F8ACA4E33C053970ADA7B /* Pods-HXNetworkManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXNetworkManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8912CC759F43F5448EF8B59D22C712B0 /* Pods-HXNetworkManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXNetworkManager_Example-dummy.m"; sourceTree = "<group>"; };
+		976FA9F7A48A1E491538B4F01412BD9C /* Pods-HXNetworkManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXNetworkManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		97797F197ACE6116FB83D5CECB6A73DD /* Pods-HXNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A51DA64DC0434C4A94D915BCDF66EC43 /* Pods-HXNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A9CCCE12808C25B51AF2862C3A147E25 /* HXNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HXNetworkManager.modulemap; sourceTree = "<group>"; };
+		AC338477E86015982E226B007F8CBFE2 /* HXNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXNetworkManager-dummy.m"; sourceTree = "<group>"; };
+		BA3B49B2A7F0CD1C74D0C06F4EE011AC /* HXNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXNetworkManager.release.xcconfig; sourceTree = "<group>"; };
+		BDEF70395C5F15F39407CD8B3A100C9B /* Pods-HXNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C33F8AB728A11FA9008C2A7B /* APIClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
+		C33F8AB828A11FA9008C2A7B /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		C33F8AB928A11FA9008C2A7B /* APIDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataProtocol.swift; sourceTree = "<group>"; };
+		C33F8ABA28A11FA9008C2A7B /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		C33F8ABB28A11FA9008C2A7B /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C33F8ABC28A11FA9008C2A7B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C33F8ABD28A11FA9008C2A7B /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C7A33B31CB64B3B452FC52EB367A93E0 /* HXNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXNetworkManager-prefix.pch"; sourceTree = "<group>"; };
+		D87E1D50653973220F98839B1E6F9726 /* Pods-HXNetworkManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXNetworkManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF04CEC7502B7DF9356941986D8348E1 /* Pods-HXNetworkManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXNetworkManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFDE934E4FB94A44EE5A2D4F4CC11EA9 /* Pods-HXNetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXNetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F32CE7DAB58604B668237A3A83385E23 /* Pods-HXNetworkManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXNetworkManager_Tests.modulemap"; sourceTree = "<group>"; };
+		F4AB0ED40C7EB7FB51C6360EFC527849 /* Pods-HXNetworkManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXNetworkManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		FAABBB68822CC5D5F38244EC1B782999 /* HXNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HXNetworkManager-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FB7F9D6F4AAB4CB3D89927FDBC65196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2790CE9AFB0A8B0F4E4697401A7CC1C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8BAC958F1A0AF2DDF4ADE9E7A8CAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26C2C2A3A7FF796C0E389C7F8A4C5FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4023E5CF20936E43CB5C85DCB47B913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18096CB3DA3E39AC000B3961D4D07B4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F86ABBBBD4842A0D0E2BC271F444E0F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23381252DDF941070696526266D625B0 /* Pods-HXNetworkManager_Example */,
+				428CC8AFEE91DCD426DFC1DD3D6B31BF /* Pods-HXNetworkManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1D5F3D58259ED68870C0DD54903F3E4B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37577D5AB57491D4659E88BD974459AA /* HXNetworkManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		23381252DDF941070696526266D625B0 /* Pods-HXNetworkManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5E75A014F450EF19BF98076F3676A9F7 /* Pods-HXNetworkManager_Example.modulemap */,
+				97797F197ACE6116FB83D5CECB6A73DD /* Pods-HXNetworkManager_Example-acknowledgements.markdown */,
+				D87E1D50653973220F98839B1E6F9726 /* Pods-HXNetworkManager_Example-acknowledgements.plist */,
+				8912CC759F43F5448EF8B59D22C712B0 /* Pods-HXNetworkManager_Example-dummy.m */,
+				417E928AABC440048D0F8C667A040A06 /* Pods-HXNetworkManager_Example-frameworks.sh */,
+				2DF9680ABCCADEDABEDFCFE0B2D68146 /* Pods-HXNetworkManager_Example-Info.plist */,
+				F4AB0ED40C7EB7FB51C6360EFC527849 /* Pods-HXNetworkManager_Example-umbrella.h */,
+				A51DA64DC0434C4A94D915BCDF66EC43 /* Pods-HXNetworkManager_Example.debug.xcconfig */,
+				BDEF70395C5F15F39407CD8B3A100C9B /* Pods-HXNetworkManager_Example.release.xcconfig */,
+			);
+			name = "Pods-HXNetworkManager_Example";
+			path = "Target Support Files/Pods-HXNetworkManager_Example";
+			sourceTree = "<group>";
+		};
+		37577D5AB57491D4659E88BD974459AA /* HXNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				C33F8AB428A11FA9008C2A7B /* Network */,
+				D4BE2CAAA1801CD831A9FD8BB0711504 /* Pod */,
+				6F2BFFADDBA4F6FC4E2BF15134F0C42C /* Support Files */,
+			);
+			name = HXNetworkManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		428CC8AFEE91DCD426DFC1DD3D6B31BF /* Pods-HXNetworkManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F32CE7DAB58604B668237A3A83385E23 /* Pods-HXNetworkManager_Tests.modulemap */,
+				85D1E980846C8064A3675F63EE9A6A04 /* Pods-HXNetworkManager_Tests-acknowledgements.markdown */,
+				DF04CEC7502B7DF9356941986D8348E1 /* Pods-HXNetworkManager_Tests-acknowledgements.plist */,
+				976FA9F7A48A1E491538B4F01412BD9C /* Pods-HXNetworkManager_Tests-dummy.m */,
+				2BFA41293E3E5D535B242FB11B62E938 /* Pods-HXNetworkManager_Tests-Info.plist */,
+				86C5674A452F8ACA4E33C053970ADA7B /* Pods-HXNetworkManager_Tests-umbrella.h */,
+				DFDE934E4FB94A44EE5A2D4F4CC11EA9 /* Pods-HXNetworkManager_Tests.debug.xcconfig */,
+				184594DDCBFA490F21A0CDB6255922D1 /* Pods-HXNetworkManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-HXNetworkManager_Tests";
+			path = "Target Support Files/Pods-HXNetworkManager_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F2BFFADDBA4F6FC4E2BF15134F0C42C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9CCCE12808C25B51AF2862C3A147E25 /* HXNetworkManager.modulemap */,
+				AC338477E86015982E226B007F8CBFE2 /* HXNetworkManager-dummy.m */,
+				FAABBB68822CC5D5F38244EC1B782999 /* HXNetworkManager-Info.plist */,
+				C7A33B31CB64B3B452FC52EB367A93E0 /* HXNetworkManager-prefix.pch */,
+				003018B8D3BC9CF64C2714B4F7F82100 /* HXNetworkManager-umbrella.h */,
+				579BC2D18BF8BDD08C0132AEF22CB5E5 /* HXNetworkManager.debug.xcconfig */,
+				BA3B49B2A7F0CD1C74D0C06F4EE011AC /* HXNetworkManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HXNetworkManager";
+			sourceTree = "<group>";
+		};
+		C33F8AB428A11FA9008C2A7B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C33F8AB528A11FA9008C2A7B /* Config */,
+				C33F8ABB28A11FA9008C2A7B /* APIClient.swift */,
+				C33F8ABC28A11FA9008C2A7B /* NetworkManager.swift */,
+				C33F8ABD28A11FA9008C2A7B /* NetworkError.swift */,
+			);
+			name = Network;
+			path = HXNetworkManager/Classes/Network;
+			sourceTree = "<group>";
+		};
+		C33F8AB528A11FA9008C2A7B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C33F8AB628A11FA9008C2A7B /* Protocol */,
+				C33F8ABA28A11FA9008C2A7B /* NetworkConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C33F8AB628A11FA9008C2A7B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C33F8AB728A11FA9008C2A7B /* APIClientProtocol.swift */,
+				C33F8AB828A11FA9008C2A7B /* NetworkManagerProtocol.swift */,
+				C33F8AB928A11FA9008C2A7B /* APIDataProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C3EFC13B1A2B66359BE88C48CE99937C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501025DCAC0BF9675EBCE58D9306AC60 /* HXNetworkManager */,
+				171E4D5DDB721217BD20423FB64F1E65 /* Pods-HXNetworkManager_Example */,
+				65F898D8D3C28D3A35546EF1C54EA0DD /* Pods-HXNetworkManager_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1D5F3D58259ED68870C0DD54903F3E4B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C3EFC13B1A2B66359BE88C48CE99937C /* Products */,
+				0F86ABBBBD4842A0D0E2BC271F444E0F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4BE2CAAA1801CD831A9FD8BB0711504 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E879681469870675E74F87A00E41F74 /* HXNetworkManager.podspec */,
+				597CB7B3899886BABF688CA7105F10DF /* LICENSE */,
+				21A1C2C9634FE5EAF90ADF6ADB282847 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13D06BE865F10032BB0C029B0A8D4CF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09176A767B713F3ADDBF6137F6611BFA /* Pods-HXNetworkManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F09E1BA3688003D45AA53A08BE3E0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B9E18254AEE3FD90A588256F1778E0 /* HXNetworkManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA38A8D6760D9F0F3228DFC2515179D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F47AB51B9DBD902FA3A8F65CCBAC96 /* Pods-HXNetworkManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7EF7856F7F004E652A306AA0AB050B12 /* Pods-HXNetworkManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B357092D52493808F456D3AB4634C114 /* Build configuration list for PBXNativeTarget "Pods-HXNetworkManager_Tests" */;
+			buildPhases = (
+				FA38A8D6760D9F0F3228DFC2515179D8 /* Headers */,
+				A0987B66D5436DA644DDAC5BEB20D4DA /* Sources */,
+				D4023E5CF20936E43CB5C85DCB47B913 /* Frameworks */,
+				58E59638A5AD4D79471C327A9D5DEAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DD89255C6E14F8A6D07EC70E92CCDEA /* PBXTargetDependency */,
+			);
+			name = "Pods-HXNetworkManager_Tests";
+			productName = Pods_HXNetworkManager_Tests;
+			productReference = 65F898D8D3C28D3A35546EF1C54EA0DD /* Pods-HXNetworkManager_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C53E4E14DB317D8313E5D6288687A2A6 /* Pods-HXNetworkManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DCD3EFAB900545B70D2A8043451CF9 /* Build configuration list for PBXNativeTarget "Pods-HXNetworkManager_Example" */;
+			buildPhases = (
+				13D06BE865F10032BB0C029B0A8D4CF2 /* Headers */,
+				F09C980B293F0CC316EDBBF9C35A40B5 /* Sources */,
+				0FB7F9D6F4AAB4CB3D89927FDBC65196 /* Frameworks */,
+				B31CECFDA8605E8D1C7CD9B8E51C0DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495CB3AE84BB2920DB2EE280F08145BE /* PBXTargetDependency */,
+			);
+			name = "Pods-HXNetworkManager_Example";
+			productName = Pods_HXNetworkManager_Example;
+			productReference = 171E4D5DDB721217BD20423FB64F1E65 /* Pods-HXNetworkManager_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F03EDE35C95E2B5BCAA2C2F2E8848959 /* HXNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0347BB7A4B75F6ABD86173913323BF69 /* Build configuration list for PBXNativeTarget "HXNetworkManager" */;
+			buildPhases = (
+				75F09E1BA3688003D45AA53A08BE3E0A /* Headers */,
+				48E416838F8AB0A3867C1DD1927B1F02 /* Sources */,
+				5E8BAC958F1A0AF2DDF4ADE9E7A8CAFA /* Frameworks */,
+				4B5AAE1F532752F2BBE27C2BD0B89BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXNetworkManager;
+			productName = HXNetworkManager;
+			productReference = 501025DCAC0BF9675EBCE58D9306AC60 /* HXNetworkManager */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C3EFC13B1A2B66359BE88C48CE99937C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F03EDE35C95E2B5BCAA2C2F2E8848959 /* HXNetworkManager */,
+				C53E4E14DB317D8313E5D6288687A2A6 /* Pods-HXNetworkManager_Example */,
+				7EF7856F7F004E652A306AA0AB050B12 /* Pods-HXNetworkManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B5AAE1F532752F2BBE27C2BD0B89BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E59638A5AD4D79471C327A9D5DEAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31CECFDA8605E8D1C7CD9B8E51C0DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E416838F8AB0A3867C1DD1927B1F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7593C2330DC70C43351F34FD12816DD /* HXNetworkManager-dummy.m in Sources */,
+				C33F8AC428A11FA9008C2A7B /* NetworkError.swift in Sources */,
+				C33F8AC128A11FA9008C2A7B /* NetworkConfig.swift in Sources */,
+				C33F8ABF28A11FA9008C2A7B /* NetworkManagerProtocol.swift in Sources */,
+				C33F8AC328A11FA9008C2A7B /* NetworkManager.swift in Sources */,
+				C33F8AC028A11FA9008C2A7B /* APIDataProtocol.swift in Sources */,
+				C33F8ABE28A11FA9008C2A7B /* APIClientProtocol.swift in Sources */,
+				C33F8AC228A11FA9008C2A7B /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0987B66D5436DA644DDAC5BEB20D4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33FF0E84452112B4D9BDDD9EB7614E7 /* Pods-HXNetworkManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09C980B293F0CC316EDBBF9C35A40B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC42A5DDDA43364E0C515E64042EAC5 /* Pods-HXNetworkManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		495CB3AE84BB2920DB2EE280F08145BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HXNetworkManager;
+			target = F03EDE35C95E2B5BCAA2C2F2E8848959 /* HXNetworkManager */;
+			targetProxy = 120F201A12FBA4022E6554FBA8607E7A /* PBXContainerItemProxy */;
+		};
+		5DD89255C6E14F8A6D07EC70E92CCDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HXNetworkManager_Example";
+			target = C53E4E14DB317D8313E5D6288687A2A6 /* Pods-HXNetworkManager_Example */;
+			targetProxy = D7662A3D929F706D4C3172C17BA97D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		552EF9DF198E703844D2E041CDA496EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEF70395C5F15F39407CD8B3A100C9B /* Pods-HXNetworkManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXNetworkManager_Example/Pods-HXNetworkManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXNetworkManager_Example/Pods-HXNetworkManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60C9E0F0208B1000B3AEE2B834E54C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184594DDCBFA490F21A0CDB6255922D1 /* Pods-HXNetworkManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXNetworkManager_Tests/Pods-HXNetworkManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXNetworkManager_Tests/Pods-HXNetworkManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F91BC53DA22B1E873AA8EB0087B388F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDE934E4FB94A44EE5A2D4F4CC11EA9 /* Pods-HXNetworkManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXNetworkManager_Tests/Pods-HXNetworkManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXNetworkManager_Tests/Pods-HXNetworkManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABD99D13FFDDF7EC40019B0DCAD44BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579BC2D18BF8BDD08C0132AEF22CB5E5 /* HXNetworkManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HXNetworkManager/HXNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HXNetworkManager/HXNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HXNetworkManager/HXNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = HXNetworkManager;
+				PRODUCT_NAME = HXNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1C35E08BA0101A34252EEE1D890BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3B49B2A7F0CD1C74D0C06F4EE011AC /* HXNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HXNetworkManager/HXNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HXNetworkManager/HXNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HXNetworkManager/HXNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = HXNetworkManager;
+				PRODUCT_NAME = HXNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0EC36C9E6490EE95875440888D0333F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51DA64DC0434C4A94D915BCDF66EC43 /* Pods-HXNetworkManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXNetworkManager_Example/Pods-HXNetworkManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXNetworkManager_Example/Pods-HXNetworkManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DCD3EFAB900545B70D2A8043451CF9 /* Build configuration list for PBXNativeTarget "Pods-HXNetworkManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EC36C9E6490EE95875440888D0333F /* Debug */,
+				552EF9DF198E703844D2E041CDA496EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0347BB7A4B75F6ABD86173913323BF69 /* Build configuration list for PBXNativeTarget "HXNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD99D13FFDDF7EC40019B0DCAD44BC0 /* Debug */,
+				B1C35E08BA0101A34252EEE1D890BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B357092D52493808F456D3AB4634C114 /* Build configuration list for PBXNativeTarget "Pods-HXNetworkManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F91BC53DA22B1E873AA8EB0087B388F /* Debug */,
+				60C9E0F0208B1000B3AEE2B834E54C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
