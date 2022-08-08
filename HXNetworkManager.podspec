@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
- 'HXNetworkManager is use for generic api call. User need to create Apirequest struct and inherit to ApiData protocol. In this pod user need to pass instance of api client'
+ 'HXNetworkManager is use for generic api call. User need to create Apirequest struct and inherit to ApiData protocol. In this pod user need to pass instance of api client.'
                        DESC
 
   s.homepage         = 'https://github.com/sachinD/HXNetworkManager'
