@@ -7,13 +7,26 @@
 
 import Foundation
 
+/// ApiClient class use for all network related call
 public class APIClient: APIClientProtocol {
+    
+    /// This instance for network manager protocol
     private let authManager: NetworkManagerProtocol
     
+    /// Apiclient class initialisation
+    /// - Parameter authorizationManager: authorizationManager is a network manager instance
    public init(authorizationManager: NetworkManagerProtocol = NetworkManager.shared) {
         self.authManager = authorizationManager
     }
     
+    
+    /// This function use for the generic api call
+    /// - Parameters:
+    ///   - request: make a request using APIData protocol
+    ///   - basePath: basePath is base url
+    ///   - responseType: responseType is pass response modal
+    ///   - keyDecodingStrategy: the strategy to use for automatically changing the value of keys before decoding.
+    ///   - completionHandler: pass completion handler with generic data and error
     public func fetch<T: Codable>(request: APIData, basePath: String, responseType:T.Type, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy, completionHandler: @escaping ((Result<T, NetworkError>) -> Void)) {
         self.authManager.startRequest(request: request, basePath: basePath) { (data, response, error) in
             
@@ -47,6 +60,12 @@ public class APIClient: APIClientProtocol {
         }
     }
     
+    /// This function use for call normal api
+    /// - Parameters:
+    ///   - request: make a request using APIData protocol
+    ///   - basePath:basePath is base url
+    ///   - success: getting success response
+    ///   - failure: getting failer response
     public func fetch(request: APIData, basePath: String, success: @escaping NetworkSuccessHandler, failure: @escaping NetworkFailureHandler) {
         self.authManager.startRequest(request: request, basePath: basePath) { (data, response, error) in
             if let _ = error{
@@ -72,6 +91,9 @@ public class APIClient: APIClientProtocol {
         }
     }
     
+    /// This function check valid response
+    /// - Parameter response: response is a httpurlresponse
+    /// - Returns: return generic response
     func isValidResposne(response: HTTPURLResponse) -> Result<String, NetworkError>{
         switch response.statusCode{
         case 200...299:

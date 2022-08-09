@@ -8,7 +8,9 @@
 
 import Foundation
 
+/// NetworkManager implement network manager protocol
 public class NetworkManager: NetworkManagerProtocol {
+    
     public static let shared = NetworkManager()
     private var task: URLSessionTask?
     private let urlSession = URLSession.shared
@@ -16,6 +18,11 @@ public class NetworkManager: NetworkManagerProtocol {
     private init() {
     }
     
+    /// This function used for call api request
+    /// - Parameters:
+    ///   - request: request is api request
+    ///   - basePath: basePath is a base url
+    ///   - completion: return completion handle with data response and error
     public func startRequest(request: APIData, basePath: String, completion: @escaping (_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Void) {
         do {
             let urlRequest = try self.createURLRequest(apiData: request, basePath: basePath)
@@ -32,6 +39,11 @@ public class NetworkManager: NetworkManagerProtocol {
 
 private extension NetworkManager {
     
+    /// This function use for creating request
+    /// - Parameters:
+    ///   - apiData: apiData is request data
+    ///   - basePath: basePath base url
+    /// - Returns: return URLRequest
     private func createURLRequest(apiData: APIData, basePath: String) throws -> URLRequest {
         do {
             if let url = URL(string: apiData.absolutePath(from: basePath))  {
@@ -50,6 +62,10 @@ private extension NetworkManager {
         }
     }
     
+    /// This function use for add header in request
+    /// - Parameters:
+    ///   - request: request is URL request
+    ///   - requestHeaders: requestHeaders is header object
     private func addRequestHeaders(request: inout URLRequest, requestHeaders: [String: String]?){
         guard let headers = requestHeaders else{
             return
@@ -59,6 +75,10 @@ private extension NetworkManager {
         }
     }
     
+    /// This function use for the encode request
+    /// - Parameters:
+    ///   - request: request is URL request
+    ///   - parameters: parameters is a request parameter
     private func encode(request: inout URLRequest, parameters: RequestParams?) throws{
         
         guard let url: URL = request.url else {
@@ -92,6 +112,10 @@ private extension NetworkManager {
         }
     }
     
+    /// This function use for encode json
+    /// - Parameters:
+    ///   - request: request is URL request
+    ///   - parameters: parameters is a request parameter
     private func encodeJSON(request: inout URLRequest, parameters: [String: Any]) throws{
         do {
             let jsonData = try JSONSerialization.data(withJSONObject: parameters, options: [])
