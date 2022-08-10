@@ -14,7 +14,7 @@
 
 ## Requirements
 
-+ Xcode 8
++ Xcode 10
 + Minimum deployment target is iOS 11.0.
 
 ## Usage
