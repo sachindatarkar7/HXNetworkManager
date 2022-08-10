@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Network error message
 public enum NetworkError: Error, Equatable {
     case parametersNil
     case parameterEncodingFailed

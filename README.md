@@ -5,11 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/HXNetworkManager.svg?style=flat)](https://cocoapods.org/pods/HXNetworkManager)
 [![Platform](https://img.shields.io/cocoapods/p/HXNetworkManager.svg?style=flat)](https://cocoapods.org/pods/HXNetworkManager)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Features
+
++ Can call generic api using URLSession.
++ Can use post request and get genric response
++ can use get request and get generic response
 
 ## Requirements
+
++ Xcode 8
++ Minimum deployment target is iOS 11.0.
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 
