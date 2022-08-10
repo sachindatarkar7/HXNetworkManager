@@ -46,7 +46,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "NewsCell", for: indexPath) as? NewsCell else {
-            return fatalError("not load cell") as! UITableViewCell
+            return  UITableViewCell()
         }
         
         cell.newsTitle.text = newsList?[indexPath.row].title

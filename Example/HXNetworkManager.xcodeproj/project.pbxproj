@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C323CC3E28A365E800464AD9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C323CC3D28A365E800464AD9 /* Constant.swift */; };
+		C323CC4128A366BF00464AD9 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C323CC4028A366BF00464AD9 /* EndPoint.swift */; };
 		C33F8AC628A124E8008C2A7B /* NewsViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8AC528A124E8008C2A7B /* NewsViewModal.swift */; };
 		C33F8ACA28A12519008C2A7B /* ResponseModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8AC928A12519008C2A7B /* ResponseModal.swift */; };
 		C33F8ACD28A126A6008C2A7B /* ApiRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F8ACC28A126A6008C2A7B /* ApiRequestData.swift */; };
@@ -49,6 +51,8 @@
 		8BA9DA04488CB042C0FF3A3A /* Pods_HXNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDBD65E366A869CE7EC3854 /* Pods-HXNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXNetworkManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-HXNetworkManager_Tests/Pods-HXNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C8873AB086FCE774EA7ADB0 /* Pods_HXNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C323CC3D28A365E800464AD9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C323CC4028A366BF00464AD9 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		C33F8AC528A124E8008C2A7B /* NewsViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModal.swift; sourceTree = "<group>"; };
 		C33F8AC928A12519008C2A7B /* ResponseModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModal.swift; sourceTree = "<group>"; };
 		C33F8ACC28A126A6008C2A7B /* ApiRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestData.swift; sourceTree = "<group>"; };
@@ -101,15 +105,15 @@
 		607FACD21AFB9204008FA782 /* Example for HXNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				C323CC4428A3687F00464AD9 /* CommanFile */,
+				C323CC4328A3686F00464AD9 /* AppDelegate */,
+				C323CC4228A3685300464AD9 /* ViewController */,
+				C323CC3F28A366A900464AD9 /* EndPoint */,
 				C33F8ACE28A1296C008C2A7B /* TableCell */,
 				C33F8ACB28A1268A008C2A7B /* ApiRequestData */,
 				C33F8AC828A12504008C2A7B /* Modal */,
 				C33F8AC728A124F3008C2A7B /* ViewModal */,
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				C323CC4528A3689800464AD9 /* StroryBoard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for HXNetworkManager";
@@ -158,6 +162,48 @@
 				8BA9DA04488CB042C0FF3A3A /* Pods_HXNetworkManager_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C323CC3F28A366A900464AD9 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				C323CC4028A366BF00464AD9 /* EndPoint.swift */,
+			);
+			name = EndPoint;
+			sourceTree = "<group>";
+		};
+		C323CC4228A3685300464AD9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C323CC4328A3686F00464AD9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C323CC4428A3687F00464AD9 /* CommanFile */ = {
+			isa = PBXGroup;
+			children = (
+				C323CC3D28A365E800464AD9 /* Constant.swift */,
+			);
+			name = CommanFile;
+			sourceTree = "<group>";
+		};
+		C323CC4528A3689800464AD9 /* StroryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+			);
+			name = StroryBoard;
 			sourceTree = "<group>";
 		};
 		C33F8AC728A124F3008C2A7B /* ViewModal */ = {
@@ -375,7 +421,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C323CC3E28A365E800464AD9 /* Constant.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C323CC4128A366BF00464AD9 /* EndPoint.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				C33F8ACA28A12519008C2A7B /* ResponseModal.swift in Sources */,
 				C33F8ACD28A126A6008C2A7B /* ApiRequestData.swift in Sources */,
